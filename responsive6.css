@@ -1,0 +1,49 @@
+@media only screen and (max-width:1200px){  
+
+html{
+	font-size:2em;
+	/*font-size:220%;*/
+}
+.logo-text {
+	font-family: "EB Garamond", sans-serif;
+	font-weight: 700;
+	color: #fff;
+	margin-top: 20px;
+	margin-left: 40px;
+}
+img{
+	height:145px;
+	width:156px;
+}
+
+.h1{
+	font-size:2.1rem;
+}
+.eb a{
+	font-size:2.2rem;
+}
+
+#n1{
+	font-size:2rem;
+}
+#n2{
+	font-size:2rem;
+}
+#n3{
+	font-size:2rem;
+}
+#n4{
+	font-size:2rem;
+}
+li a{
+	color: #d8ff00;
+    text-decoration: underline;
+    font-size: 1.7rem;
+    padding: 0px 19px;
+}
+.bullet{
+    padding: 40px;
+    margin: 10px 0px 0px 19px;
+}	
+
+}

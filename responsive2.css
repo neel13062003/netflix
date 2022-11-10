@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600;700;800&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;700&display=swap');
+
+@media only screen and (max-width:1000px){  
+
+html{
+	font-size:2em;
+	/*font-size:220%;*/
+}
+header{
+	font-size:2.6em;
+}
+.logo-text {
+	font-family: "EB Garamond", sans-serif;
+	font-weight: 700;
+	color: #fff;
+	margin-top: 20px;
+	margin-left: 40px;
+}
+img{
+	 height: 132px;
+    width: 150px;
+}
+.main {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+#n1{
+	margin: 27px 0px 210px 20px;
+}
+
+#n2{
+	 margin: 4px 0px 22px 22px;
+}
+#n3{
+	margin: 14px 0px 155px 17px;
+}
+#n4{
+    margin: 31px 20px 330px 18px;
+}
+#n5{
+	margin:20px 0px 22px 20px;
+}
+
+p.neel{
+	font-size:5.5vh;
+    }
+}
+
+
+
+@media only screen  and (max-width:700px){  
+
+#n1{
+	margin: 27px 0px 210px 20px;
+}
+#n2{
+	 margin: 4px 0px 22px 22px;
+}
+#n3{
+	margin: 14px 0px 155px 17px;
+}
+#n4{
+    margin: 31px 20px 330px 18px;
+}
+#n5{
+	margin:20px 0px 22px 20px;
+}
+
+
+}
+
+
+@media only screen and (max-width:560px){  
+
+#n1{
+	margin: 27px 0px 210px 20px;
+}
+#n2{
+	 margin: 4px 0px 22px 22px;
+}
+#n3{
+	margin: 14px 0px 155px 17px;
+}
+#n4{
+    margin: 31px 20px 330px 18px;
+}
+#n5{
+	margin:20px 0px 22px 20px;
+}
+
+}

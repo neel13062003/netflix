@@ -1,0 +1,83 @@
+@media only screen and (max-width:1000px){  
+
+html{
+	font-size:2em;
+	/*font-size:220%;*/
+}
+.logo-text {
+	font-family: "EB Garamond", sans-serif;
+	font-weight: 700;
+	color: #fff;
+	margin-top: 20px;
+	margin-left: 40px;
+}
+img{
+	 height: 151px;
+    width: 180px;
+}
+
+#n1{
+	margin: 10px 0px 430px 16px;
+}
+
+#n2{
+	 margin: 4px 0px 170px 18px;
+}
+#n3{
+	margin: 14px 0px 155px 17px;
+}
+#n4{
+    margin: 31px 20px 330px 18px;
+}
+#n5{
+	margin:20px 0px 22px 20px;
+}
+
+p.neel{
+	font-size:5.4vh;
+    }
+}
+
+
+
+@media only screen  and (max-width:700px){  
+
+#n1{
+	margin: 10px 0px 430px 16px;
+}
+#n2{
+	 margin: 4px 0px 170px 18px;
+}
+#n3{
+	margin: 14px 0px 155px 17px;
+}
+#n4{
+    margin: 31px 20px 330px 18px;
+}
+#n5{
+	margin:20px 0px 22px 20px;
+}
+
+
+}
+
+
+@media only screen and (max-width:560px){  
+
+#n1{
+	margin: 10px 0px 430px 16px;
+}
+#n2{
+	 margin: 4px 0px 170px 18px;
+}
+#n3{
+	margin: 14px 0px 155px 17px;
+}
+#n4{
+    margin: 31px 20px 330px 18px;
+}
+#n5{
+	margin:20px 0px 22px 20px;
+}
+
+}

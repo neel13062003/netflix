@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro&family=Nunito:wght@200&display=swap');
+
+*{
+	padding:0;
+	margin:0;
+}
+
+header{
+	height:13vh;
+	text-align:center;
+	align-items:center;
+	padding:1vh;
+	margin:0;
+	background-color:black;
+	color:#ff0909;
+	font-size:xxx-large;
+	border:2px solid black;	
+	font-family: 'Castoro', serif;
+    font-family: 'Nunito', sans-serif;
+	display:flex;
+	justify-content:center;
+	font-weight: bold;
+	
+}
+.logo-text {
+	font-family: "EB Garamond", sans-serif;
+	font-weight: 700;
+	color: #fff;
+	margin-top: 20px;
+	margin-left: 40px;
+}
+.search{
+	height: 33px;
+    width: 57px;
+    border-radius: 13px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+input submit{
+	border:solid white;
+	 width:60;
+	 height:35;
+	 border-radius:15px;
+	 cursor:pointer;
+	
+}
+
+main{
+	background-color:white;
+	background-image:url("../image/bi1.jfif");
+	min-height:75vh;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	color:yellow;
+}
+
+h1{
+	display:flex;
+	justify-content:center;
+	font-weight: bold;
+	font-family: 'Castoro', serif;
+    font-family: 'Nunito', sans-serif;
+	color:#00ff37;
+}
+
+li{
+	height:30px;
+	font-family: 'Castoro', serif;
+    font-family: 'Nunito', sans-serif;
+	justify-content:center;
+	color:white;
+	font-weight: bold;
+	
+}
+
+li a{
+	color:#d8ff00;
+	text-decoration:underline;
+}
+
+li a:hover{
+	color:#04ff00;
+	font-weight: bold;
+	text-decoration:none;
+	padding:0 20px;
+	transform: scale(1.5);
+}
+
+.bullet{
+	padding:5px;
+	margin:0 10px 0 10px;
+}
+
+.email{
+	color:#d8ff00;
+	text-decoration:underline;
+}
+
+.email:hover{
+	color:#d8ff00;
+	text-decoration:underline;
+	color:yellow;
+	background-color:black;
+	color:#04ff00;
+	font-weight: bold;
+	text-decoration:none;
+	padding:0 20px;
+	transform: scale(1.5);
+}
+
+.hi{
+	padding:10px;
+	margin:3px 9px 5px 9px;
+}
+
+footer{
+	height:9vh;
+	background-color:black;
+	font-size:x-large;
+	color:white;	
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-family: 'Castoro', serif;
+    font-family: 'Nunito', sans-serif;
+	font-weight: bold;
+}

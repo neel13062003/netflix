@@ -1,0 +1,28 @@
+@media only screen and (max-width:1200px){  
+
+html{
+	font-size:2em;
+	/*font-size:220%;*/
+}	
+.h1{
+	margin:0.875rem;
+    color:#03ff22;	
+	font-size:1.2rem;
+}
+.logo-text {
+	font-family: "EB Garamond", sans-serif;
+	font-weight: 700;
+	color: #fff;
+	margin-top: 20px;
+	margin-left: 40px;
+}
+.ul{
+	font-size:1.4rem;
+}
+img{
+	 height: 132px;
+    width: 150px;
+}
+
+}
+

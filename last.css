@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro&family=Nunito:wght@200&display=swap');
+
+*{
+	padding:0;
+	margin:0;
+}
+
+header{
+	height:15vh;
+	text-align:center;
+	align-items:center;
+	padding:0vh;
+	margin:0;
+	background-color:black;
+	color:#ff0909;
+	font-size:xx-large;
+	border:2px solid black;	
+	font-family: 'Castoro', serif;
+    font-family: 'Nunito', sans-serif;
+	display:flex;
+	justify-content:center;
+	font-weight: bold;
+	
+}
+
+.nav{
+	display:flex;
+	padding:25px;
+}
+
+nav ul{
+	display:flex;
+	height: 7vh;
+	justify-content:flex-start;
+	align-items:center;
+}
+
+nav ul li{
+	list-style:none;
+	padding:0 45px 12px 20px;
+}
+
+nav ul li:hover{
+	list-style:none;
+	padding:0 15px 0 15px;
+	transform: scale(1.1);
+}
+
+nav ul li a{
+	color:white;
+	text-decoration:none;
+	font-size: 1rem;
+	
+}
+
+nav ul li a:hover{
+	color:rgb(2, 163, 237);
+	font-weight: bold;
+}
+
+
+main{
+	background-color:white;
+	background-image:url("../image/bi1.jfif");
+	min-height:75vh;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	color:yellow;
+}
+
+h1{
+	display:flex;
+	justify-content:center;
+	font-weight: bold;
+	font-family: 'Castoro', serif;
+    font-family: 'Nunito', sans-serif;
+	color:#00ff37;
+}
+
+li{
+	height:30px;
+	font-family: 'Castoro', serif;
+    font-family: 'Nunito', sans-serif;
+	justify-content:center;
+	color:white;
+	font-weight: bold;
+	padding:5px 60px;
+	
+	
+}
+
+li a{
+	color:#d8ff00;
+	text-decoration:underline;
+	font-size:xx-large;
+	padding:5px 30px;
+}
+
+li a:hover{
+	color:#ff0099;
+	font-weight: bold;
+	text-decoration:none;
+	padding:0 10px;
+	transform: scale(1.5);
+	font-size:xxx-large;
+}
+
+.bullet{
+	padding:5px;
+	margin:0 10px 0 10px;
+}
+
+.hi{
+	padding:10px;
+	margin:3px 9px 5px 9px;
+}
+
+
+
+footer{
+	height:12vh;
+	background-color:black;
+	color:white;	
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-family: 'Castoro', serif;
+    font-family: 'Nunito', sans-serif;
+}

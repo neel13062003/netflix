@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600;700;800&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;700&display=swap');
+
+@media only screen and (max-width:1200px){  
+
+html{
+	font-size:2em;
+	/*font-size:220%;*/
+}	
+.logo-text {
+	font-family: "EB Garamond", sans-serif;
+	font-weight: 700;
+	color: #fff;
+	margin-top: 20px;
+	margin-left: 40px;
+}
+header{
+	font-size: 1.2rem;
+	padding: 2vh;
+    margin: 0px 0px 3px 0px;
+    background: black;
+    color: white;
+    border: 2px solid black;
+    font-family: 'Castoro', serif;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    font-weight: bold;
+}
+.nav{
+	display: flex;
+    padding: 23px 3px 21px 78px;
+    margin: -8px 0px 0px 15px;
+}
+
+nav ul {
+    display: flex;
+    height: 7vh;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+img{
+	 height: 132px;
+    width: 150px;
+}
+.container{
+	display: flex;
+    min-height: 49vh;
+    margin: -31px 0px -460px 5px;
+}
+
+.het{
+	text-align:center;
+	margin: -16px 0px 39px 0px;
+    font-family: 'Castoro', serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.group1{
+    display: flex;
+    min-height: 48vh;
+    margin: 63px -12px 0px -3px;
+    padding: -10px 0 0 10px;
+    overflow-x: scroll;
+}
+main{
+    color: white;
+    padding: 9px 23px 0px 20px;
+	background-image:url("../image/bi.jfif");
+	min-height:80%;
+}
+footer{
+	height:10vh;
+	background-color:black;
+	color:white;	
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-family: 'Castoro', serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+}
+
+
+.img-res {
+	width: 250px;
+	height: 275px;
+	border-radius: 5px;
+	object-fit: cover;
+}

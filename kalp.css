@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro&family=Nunito:wght@200&display=swap');
+
+*{
+	padding:0;
+	margin:0;
+}
+
+header{
+	height:13vh;
+	text-align:center;
+	align-items:center;
+	padding:1vh;
+	margin:0;
+	background-color:black;
+	color:#ff0909;
+	font-size:xxx-large;
+	border:2px solid black;	
+	font-family: 'Castoro', serif;
+    font-family: 'Nunito', sans-serif;
+	display:flex;
+	justify-content:center;
+	font-weight: bold;		
+}
+
+nav{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+	padding:0px 0px 0px 0px;
+	
+}
+
+.neel{
+	font-size:8.5vh;
+	font-family: 'Castoro', serif;
+    font-family: 'Nunito', sans-serif;
+	display:flex;
+	justify-content:center;
+	font-weight: bold;	
+	padding:10px 3px 3px 20px;
+	color:#00ff00;
+	
+}
+
+
+main{
+	background-color:white;
+	background-image:url("../image/bi1.jfif");
+	min-height:75vh;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	color:yellow;
+}
+
+.h1{
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	font-weight: bold;
+	font-family: 'Castoro', serif;
+    font-family: 'Nunito', sans-serif;
+	color:#00ff37;
+	margin: 0px 10px 0px;
+    padding: 22px;
+}
+
+li{
+	height:30px;
+	font-family: 'Castoro', serif;
+    font-family: 'Nunito', sans-serif;
+	justify-content:center;
+	color:white;
+	font-weight: bold;
+	
+}
+
+li a{
+	color:#d8ff00;
+	text-decoration:underline;
+}
+
+li a:hover{
+	color:#04ff00;
+	font-weight: bold;
+	text-decoration:none;
+	padding:0 20px;
+	transform: scale(1.5);
+}
+
+.bullet{
+	padding:5px;
+	margin:0 10px 0 10px;
+}
+
+.hi{
+	padding:10px;
+	margin:3px 9px 5px 9px;
+	text-align:center;
+}
+
+
+
+footer{
+	height:9vh;
+	background-color:black;
+	font-size:x-large;
+	color:white;	
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-family: 'Castoro', serif;
+    font-family: 'Nunito', sans-serif;
+	font-weight: bold;
+}
